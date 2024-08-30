@@ -1,0 +1,59 @@
+{
+  "clinica":[
+    {
+      "nombre": "TRANSMEDICAL LOGISTICS",
+      "nit": "901499257",
+      "codigo": "173800302701"
+    }
+  ],
+  "servicios": [
+    {
+      "codigo": "211",
+      "nombre": "ENERMERA PROFESIONAL",
+      "medico":{
+        "tipoDocumento": "CC",
+        "documento": "24681012"
+      }
+    },
+    {
+      "codigo": "311",
+      "nombre": "AUXILIAR DE ENFERMERIA",
+      "medico":{
+        "tipoDocumento": "CC",
+        "documento": "135791113"
+      }
+    }
+  ],
+  "consultas":[
+    {
+      "codigo": "890703",
+      "nombre": "CONSULTA URGENCIA POR ODONTOLOGIA GENERAL - 890703",
+      "precio": "36800"
+    },
+    {
+      "codigo": "890303",
+      "nombre": "CONSULTA CONTROL POR ODONTOLOGIA GENERAL - 890303",
+      "precio": "29300"
+    }
+  ],
+  "diagnosticos":[
+    {
+      "codigo": "K040",
+      "nombre": "Pulpitis"
+    }
+  ],
+  "tecnologia":[
+    {
+      "codigo": "TAB",
+      "nombre": "TRASLADO ASISTENCIAL BASICO"
+    },
+    {
+      "codigo": "TAM",
+      "nombre": "TRASLADO ASISTENCIAL MEDICALIZADO"
+    },
+    {
+      "codigo": "OTT",
+      "nombre": "OTRO TIPO DE TRASLADO"
+    }
+  ]
+}
